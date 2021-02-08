@@ -25,7 +25,13 @@ public class ScreenManager {
         return selectedPoints;
     }
 
-    public boolean isFilledIn(Coordinate coordinate) { // TODO: Implement this
-        return false;
+    public boolean isFilledIn(Coordinate coordinate) {
+
+        int pixels = SCREEN_WIDTH * SCREEN_HEIGHT
+        if (screen1 == pixels) {
+            screen1.replace(screen2);
+        }
     }
+
+}
 }
